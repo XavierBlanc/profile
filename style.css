@@ -1,0 +1,77 @@
+body{
+  font-family: Arial;
+  background: #8E4A49;
+  color: #8A8E91;
+  text-align: center;
+  background-image: url('https://scontent-cdg2-1.xx.fbcdn.net/v/t31.0-8/17545192_10155525468950139_6157688112066198685_o.jpg?_nc_cat=111&_nc_ohc=ZJolgR6M1YQAX-F3TJK&_nc_ht=scontent-cdg2-1.xx&oh=db0b50c70ac1bc8cbfd01084308ecd5d&oe=5ED67CDE');
+  background-size: cover;
+}
+
+h1{
+  font-sive: 30px;
+  font-weight: bold;
+  font-family: courier;
+  color: #8A8E91;
+}
+
+h2{
+  font-sive: 20px;
+  font-weight: bold;
+  font-family: courier;
+  color: #8E4A49;
+}
+
+a{
+  text-decoration: none,
+  color: #8A8E91;
+}
+
+.text-center{
+  text-align: center;
+}
+
+#list-font i {
+  font-size: 50px
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 5px solid lightgrey;
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+/*.container{
+
+
+}*/
+
+
+.point li {
+display: inline-block;
+list-style: none;
+padding: 10px;
+}
+
+
+@media (max-width: 960px) {
+  .card-white {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  .card-white {
+    width: 300px;
+  }
+}
+@media (max-width: 540px) {
+  .card-white {
+    width: 200px;
+  }
+}
